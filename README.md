@@ -14,7 +14,7 @@ Siga os passos abaixo para configurar e executar o projeto.
 * Primeiro, crie um novo banco de dados no seu servidor (ex: `hotel_db`).
 * Em seguida, importe a estrutura e os dados para o banco que você criou usando o arquivo SQL gerado pelo programa. Use o seguinte comando no seu terminal, substituindo os valores necessários:
     ```bash
-    mysql -u [seu_usuario] -p [nome_do_banco] < [nome_do_seu_arquivo].sql
+    mysql -u [seu_usuario] -p [nome_do_banco] < banco_reserva.sql
     ```
 
 ### 2. Configurar Variáveis de Ambiente
@@ -51,7 +51,6 @@ O projeto utiliza um ambiente virtual para gerenciar suas dependências.
         ```
 
 * **Instale as dependências:**
-    *(Observação: Você precisa ter um arquivo `requirements.txt`. Se não tiver, gere-o com `pip freeze > requirements.txt`)*
     ```bash
     pip install -r requirements.txt
     ```
