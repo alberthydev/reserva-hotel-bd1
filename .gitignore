@@ -1,5 +1,6 @@
 .venv/
 __pycache__/
 views/__pycache/
+.env
 book-hotel.ui
 
