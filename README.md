@@ -1,6 +1,6 @@
 # Sistema de Gestão de Hotel
 
-Este é um projeto de um sistema de desktop para gestão de hotelaria, desenvolvido em Python com a biblioteca PyQt5 e um banco de dados relacional (MySQL/MariaDB). A aplicação permite gerenciar reservas, funcionários, serviços de quarto e status dos quartos.
+Este é um projeto de um sistema de desktop para gestão de reserva para hotelaria, desenvolvido em Python com a biblioteca PyQt5 e um banco de dados relacional (MySQL/MariaDB). A aplicação permite gerenciar reservas, funcionários, serviços de quarto e status dos quartos.
 
 ---
 ## Configuração e Execução
